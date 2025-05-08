@@ -35,10 +35,32 @@ mv mnist_train ./dataset
 ```bash
 python main.py
 ```
-The weight can be saved to ./saved_models. The torch weight is .pth and jittor weight is .pkl
-We provide two weights in this projection.
+The weight can be saved to ./saved_models. 
+
+The torch weight is .pth and jittor weight is .pkl
+
+You can change the hyperparameters in main.py like epoch and p_uncond in CFG.
 
 ## Performance evaluation
+### 1. Time consuming(We train the whole model with a single NVIDIA 4090 GPU)
+Jittor time consuming:
+![epoch_time_compare_jittor](CFG_jittor/logs/training_epoch_time_plot_jittor.png)
+Torch time consuming:
+![epoch_time_compare_torch](CFG_jittor/logs/training_epoch_time_plot_torch.png)
 
+### 2. Training loss
+Jittor:
+![Loss_jittor](CFG_jittor/logs/training_loss_plot_jittor.png)
+Torch:
+![Loss_torch](CFG_jittor/logs/training_loss_plot_torch.png)
+
+### 3. Training logs
+We provide the experimental logs in projection.
+
+### 4. Evaluation score(FID and IS)
+Jittor: FID: 50.61, IS: 2.00 (std: 0.30)
+Torch:  FID: 51.36, IS: 1.88 (std: 0.35)
+
+### Generation images
 
 
