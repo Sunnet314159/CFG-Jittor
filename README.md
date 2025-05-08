@@ -66,6 +66,7 @@ We provide the experimental logs in projection.
 
 ### 4. Evaluation score(FID and IS)
 Jittor: FID: 50.61, IS: 2.00 (std: 0.30)
+
 Torch:  FID: 51.36, IS: 1.88 (std: 0.35)
 
 ### Generation images
