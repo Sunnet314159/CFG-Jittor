@@ -23,7 +23,7 @@ python -m jittor.test.test_example
 python -m jittor.test.test_cudnn_op
 ```
 
-## 2. Downloading the projection and move the necessity to \dataset
+## 2. Downloading the projection and move the necessity to .\dataset
 You must download the mnist_train.npz from Baidu CLoud.
 ```bash
 https://pan.baidu.com/s/1lOkndZSrtHjg1NXNELkiPw?pwd=8b4e
@@ -33,7 +33,7 @@ Then, you should move the file to ./dataset.
 git clone
 cd CFG_Jittor
 mkdir dataset
-mv mnist_train ./dataset
+mv mnist_train.npz ./dataset
 ```
 
 ## 3. Train your own  model
