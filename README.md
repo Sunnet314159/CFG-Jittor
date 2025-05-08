@@ -48,11 +48,13 @@ Jittor time consuming:
 Torch time consuming:
 ![epoch_time_compare_torch](logs/training_epoch_time_plot_torch.png)
 
+The time consuming of Jittor is a little bit bigger than Pytorch. 
+
 ### 2. Training loss
 Jittor:
 ![Loss_jittor](logs/training_loss_plot_jittor.png)
 Torch:
-![Loss_torch]CFG_jittor/logs/training_loss_plot_torch.png)
+![Loss_torch](/logs/training_loss_plot_torch.png)
 
 ### 3. Training logs
 We provide the experimental logs in projection.
@@ -62,5 +64,11 @@ Jittor: FID: 50.61, IS: 2.00 (std: 0.30)
 Torch:  FID: 51.36, IS: 1.88 (std: 0.35)
 
 ### Generation images
+Jittor:
+![1](/images/1.png)
+![2](/images/2.png)
 
+Pytorch:
+![3](/images/3.png)
+![4](/images/4.png)
 
