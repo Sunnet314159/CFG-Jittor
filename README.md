@@ -44,15 +44,15 @@ You can change the hyperparameters in main.py like epoch and p_uncond in CFG.
 ## Performance evaluation
 ### 1. Time consuming(We train the whole model with a single NVIDIA 4090 GPU)
 Jittor time consuming:
-![epoch_time_compare_jittor](CFG_jittor/logs/training_epoch_time_plot_jittor.png)
+![epoch_time_compare_jittor](logs/training_epoch_time_plot_jittor.png)
 Torch time consuming:
-![epoch_time_compare_torch](CFG_jittor/logs/training_epoch_time_plot_torch.png)
+![epoch_time_compare_torch](logs/training_epoch_time_plot_torch.png)
 
 ### 2. Training loss
 Jittor:
-![Loss_jittor](CFG_jittor/logs/training_loss_plot_jittor.png)
+![Loss_jittor](logs/training_loss_plot_jittor.png)
 Torch:
-![Loss_torch](CFG_jittor/logs/training_loss_plot_torch.png)
+![Loss_torch]CFG_jittor/logs/training_loss_plot_torch.png)
 
 ### 3. Training logs
 We provide the experimental logs in projection.
