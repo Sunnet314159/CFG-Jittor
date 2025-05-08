@@ -1,4 +1,4 @@
-# CFG_jittor
+# The Implementation of Condition-Free Guidance(CFG) with Jittor
 
 ## Introduction
 This work is the implementation of Condition-Free Guidance(CFG) with Jittor frame(https://github.com/Jittor/jittor).
