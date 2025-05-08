@@ -94,5 +94,5 @@ Pytorch:
 ![19](/images/19.png)
 ![20](/images/20.png)
 
-## We will train the CFG with Jittor in the larger scale dataset like CIFAR-10 and even Imagenet-1k in the future. 
+# We will train the CFG with Jittor in the larger scale dataset like CIFAR-10 and even Imagenet-1k in the future. 
 
