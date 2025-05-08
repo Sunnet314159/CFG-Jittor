@@ -69,7 +69,7 @@ Jittor: FID: 50.61, IS: 2.00 (std: 0.30)
 
 Torch:  FID: 51.36, IS: 1.88 (std: 0.35)
 
-### Generation images
+## GeneratED images
 Jittor:
 ![1](/images/1.png)
 ![2](/images/2.png)
@@ -93,4 +93,6 @@ Pytorch:
 ![18](/images/18.png)
 ![19](/images/19.png)
 ![20](/images/20.png)
+
+## We will train the CFG with Jittor in the larger scale dataset like CIFAR-10 and even Imagenet-1k in the future. 
 
