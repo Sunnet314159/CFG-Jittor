@@ -1,7 +1,7 @@
-# The Implementation of Condition-Free Guidance(CFG) with Jittor
+# The Implementation of Classifier-Free Guidance(CFG) with Jittor
 
 ## Introduction
-This work is the implementation of Condition-Free Guidance(CFG) with Jittor frame(https://github.com/Jittor/jittor).
+This work is the implementation of Classifier-Free Guidance(CFG) with Jittor frame(https://github.com/Jittor/jittor).
 
 - Training and sampling with MNIST dataset
 - Training and testing process aligned with PyTorch implementation
