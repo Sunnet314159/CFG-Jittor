@@ -10,7 +10,7 @@ This work is the implementation of Condition-Free Guidance(CFG) with Jittor fram
 - Due to the high complexity, we implement the EVALUATION with Pytorch frame only.(Waiting to be changed)
 
 ## 1. Create a jittor environment
-### create the enviroment and install jittor package
+### create the environment and install jittor package
 ```bash
 conda create -n jit python=3.10
 conda activate jit 
@@ -24,7 +24,7 @@ python -m jittor.test.test_cudnn_op
 ```
 
 ## 2. Downloading the projection and move the necessity to .\dataset
-You must download the mnist_train.npz from Baidu CLoud.
+You must download the mnist_train.npz from Baidu Cloud firstly.
 ```bash
 https://pan.baidu.com/s/1lOkndZSrtHjg1NXNELkiPw?pwd=8b4e
 ```
